@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming events</title>
+	<link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+	<header>
+        </nav>
+	</header>
+	<main>
+		<article>
+			<h1>Upcoming Events</h1>
+			<div class="event-card">
+				<img src="../images/dimitri-vegas-like-mike.webp" alt="Photo of artists Dimitri Vegas & Mike like">
+				<section>
+					<h3>Dimitri Vegas & Like Mike, Ushuaïa Ibiza</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>Wednesdays Summer 2024</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Ibiza, Spain</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+			<div class="event-card">
+				<img src="../images/tomorrow-land-sao-paulo-stage2.webp.png" alt="Photo of the Tomorrowland stage in São Paulo with fireworks and an enthusiastic crowd">
+				<section>
+					<h3>Tomorrowland Brazil</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>October 11-13, 2024</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Itu (Sao Paullo), Brazil</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+			<div class="event-card">
+				<img src="../images/foto-expo-tomorrowland.png" alt="Photo of a section of the expo displaying the 2012 part of the timeline, featuring a newspaper article and a photo about Tomorrowland">
+				<section>
+					<h3>Tomorrowland Expo</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>October 16-20, 2024</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Amsterdam, The Netherlands</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+			<div class="event-card">
+				<img src="../images/ipso-all-night-long.png" alt="Photo of a shadow of a person wearing a hat and holding a bag">
+				<section>
+					<h3>KÖLSCH presents: IPSO - All Night Long</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg"">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>October 26, 2024</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Waagnatie - Antwerp, Belgium</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+			<div class="event-card">
+				<img src="../images/one-year-movie.webp" alt="Photo of the beginning of a film where you see the globe with a golden glow">
+				<section>
+					<h3>'One Year' Movie</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg"">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>December, 2024</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Around the World</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+			<div class="event-card">
+				<img src="../images/foto-van-een-oog.png" alt="Photo of an eye decorated with pieces of plants, symbolizing Medellin">
+				<section>
+					<h3>CORE Medellín</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg"">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>February 14 & 15, 2025</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Medellín, Colombia</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			
+			</div>
+			<div class="event-card">
+				<img src="../images/alpe-d'huez-stage-tomorrowland.png" alt="Photo of the Tomorrowland stage in Alpe d'Huez with snow and mountains in the background">
+				<section>
+					<h3>Tomorrowland Winter</h3>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg"">
+							<path fill="#fff" d="M22 9.108h-1v-2a1 1 0 1 0-2 0v4h-1v-2h-5v-2a1 1 0 1 0-2 0v4h-1v-2H8a2 2 0 0 0-2 2v10.999a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V11.108a2 2 0 0 0-2-2m0 12.999H8v-7.999h14z"></path>
+						</svg>
+						<p>March 15-22, 2025</p>
+					</div>
+					<div class="event-info">
+						<svg xmlns="http://www.w3.org/2000/svg" alt="Icon of a calendar">
+							<path fill="#fff" d="M15 23.889c2.403-2.884 6-7.826 6-11.562 0-3.31-2.691-6-6-6s-6 2.69-6 6c0 3.737 3.599 8.68 6 11.562m0-15.562c2.206 0 4 1.794 4 4 0 2.506-2.437 6.293-4 8.381-1.563-2.086-4-5.87-4-8.381 0-2.206 1.794-4 4-4m0 6c-1.103 0-2-.898-2-2 0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2"></path>
+						</svg>
+						<p>Alpe d'Huez, France</p>
+					</div>
+					<div>
+						<a>Info</a>
+						<a>Tickets</a>
+					</div>
+				</section>
+			</div>
+		</article>
+		
+	</main>
+	<footer>
+		<section>
+			<img src="../images/logo-tomorrowland-wit.png" alt="The Tomorrowland logo in a white version">
+			<h2>Tomorrowland</h2>
+		</section>
+		<ul>
+			<li>TOMORROWLAND BELGIUM<a href="../index.html"></a><img src="../svg/chevron(1).svg" alt="Chevron pointing down"></li>
+			<li>TOMORROWLAND WINTER<a href="../index.html"></a><img src="../svg/chevron(1).svg" alt="Chevron pointing down"></li>
+			<li>ONE WORLD RADIO<a href="../index.html"></a><img src="../svg/chevron(1).svg" alt="Chevron pointing down"></li>
+			<li>TOMORROWLAND STORE<a href="../index.html"></a><img src="../svg/chevron(1).svg" alt="Chevron pointing down"></li>
+			<li>TOMORROWLAND MUSIC<a href="../index.html"></a><img src="../svg/chevron(1).svg" alt="Chevron pointing down"></li>
+			<li>FAQ<a href="../index.html"></a></li>
+			<li>JOBS<a href="../index.html"></a></li>
+		</ul>
+	</footer>
+	
+	<script defer src="../scripts/script.js"></script>
+</body>
+	
+</html>

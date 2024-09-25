@@ -1,0 +1,27 @@
+Hulp bij opdracht en schrijven van code
+https://chatgpt.com/ en slides DLO 
+
+Afbeeldingen
+https://www.tomorrowland.com/home/
+
+Navigatie menu met in- en uitklappen
+https://codepen.io/miguelznunez/pen/GRmLxPQ, https://codepen.io/shooft/pen/VwJXNEg*/
+
+Carousel
+https://css-tricks.com/css-only-carousel/ 
+https://chatgpt.com -> promt: Ik will de event cards also carousel tonen waarbij er 1 event card wordt getoond en van de andere been klein stukje aan de rechterkant. hoe doe ik dit met HTML css
+
+Light mode icon
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:wb_sunny:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=light&icon.size=24&icon.color=%235f6368
+
+Dark mode icon
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:bedtime:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=night&icon.size=24&icon.color=%235f6368 
+
+Bron voor light en darkmode
+https://www.youtube.com/watch?v=_gKEUYarehE 
+
+Tomorrowland logo SVG
+https://www.svgrepo.com/svg/306865/tomorrowland 
+
+Chevron
+https://www.svgrepo.com/svg/533661/chevron-right
