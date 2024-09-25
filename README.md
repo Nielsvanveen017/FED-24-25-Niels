@@ -307,6 +307,7 @@ To Do lijst voor week 4:
 
   Dit is me gelukt. Ik ben hier ruim 2 dagen mee bezig geweest. Hiervoor heb ik een nieuw bestan aangemaakt. Ik heb daarin eerst de juiste benamingen in m'n root gezet. Toen ben ik langzaam gaan uitbreiden. Zo heb ik onderdeel per onderdeel alles toegevoegd. Ik heb eerst de navigatie balk toegvoegd. Vervolgens de hero section en de andere onderdelen. Ook kwam ik erachter dat ik meer gebruik moest gaan maken van svg (zodat ik de kleuren kon aanpassen). Ook kwam ik erachter dat ik de gradient in m'n card-images moest verwijderen. Deze had ik namelijk via Figma gemaakt, waardoor ik deze niet meer aan kon passen qua kleur. Ik heb deze voor nu even zo gelaten. Ik hoop daar in de les van vandaag (woensdag 25 september) vragen over te kunnen stellen.
 
+  Tijdens de les ben ik eerst begonnen met het toevoegen van alle links op m'n a tags. Deze links gaan naar pagina's van de echte website van Tomorrowland. In deze les wil ik m'n website zover mogelijk afmaken, zodat ik morgen de toegankelijkheidstest kan gaan doen. Zo kan ik ook nog eventuele verbeteringen doen. 
   
   
 
