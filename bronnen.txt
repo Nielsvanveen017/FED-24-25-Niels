@@ -25,3 +25,6 @@ https://www.svgrepo.com/svg/306865/tomorrowland
 
 Chevron
 https://www.svgrepo.com/svg/533661/chevron-right
+
+Hulp bij opschonen code (ChatGPT)
+Promt: n m'n css gebruik ik vaak dezelfde stijlen. Zo heb ik een event-container, slider container en een news container. Kan ik die stijlen ook samenvoegen in een class zodat ik die kan hergebruiken? Mij is geleerd zoveel mogelijk met pseudo selectoren te werken maar ook zo min mogelijk css te schrijven.

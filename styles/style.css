@@ -94,6 +94,7 @@
     --nav-background-color: rgba(0, 0, 0, 0.50);
   }
   
+  /* Met has kan ik de value die gelijk aan iets staat uit de html selecteren */
   body:has(input[value="light"]:checked) {
     --body-background: #f5f5f5;
     --text-color: #000000;
@@ -376,7 +377,7 @@ footer ul svg path{
 
 
 /*********************/
-/* Hero section */
+/* Knoppen in navigatie menu voor thema's */
 /*********************/
 #theme-form {
     display: flex;
@@ -387,6 +388,7 @@ footer ul svg path{
     display: none; /* Verberg de standaard radio buttons */
 }
 
+/* Door ::before te gebruiken kan ik de radio buttons opmaken, als ik dit weg zou laten dan krijgen ze geen fill */
 .custom-radio::before {
     content: '';
     display: inline-block;
@@ -488,12 +490,14 @@ footer ul svg path{
 /*********************/
 /* Upcoming Events Slider */
 /*********************/
+/* Hierbij heb ik hulp gekregen van David */
 .slider-container{
     padding: 2em 1em 2em 1em;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .slider-container ul {
     display: flex;
     overflow-x: scroll;
@@ -502,18 +506,14 @@ footer ul svg path{
 }
 
 .slider-container ul li  {
-    flex: 0 0 90%; /* Elke kaart neemt 80% van de breedte in */
-    border-radius: 1em;
-    scroll-snap-align: start; /* Kaarten snappen naar het begin bij scrollen */
-    transition: transform 0.3s ease;
-    background-color: var(--card-background);
     display: flex; /* Voeg deze regel toe om flex gedrag te forceren */
     flex-direction: column; /* Zorgt ervoor dat kinderen onder elkaar staan */
     justify-content: flex-start; /* Zorgt ervoor dat ze aan de bovenkant uitgelijnd zijn */
-}
-
-.slider-container ul li:last-child{
-    margin-right: 1em;
+    flex: 0 0 90%; /* Elke kaart neemt 90% van de breedte in */
+    border-radius: 1em;
+    scroll-snap-align: start; 
+    transition: transform 0.3s ease;
+    background-color: var(--card-background);
 }
 
 .slider-container ul li img {
@@ -529,7 +529,6 @@ footer ul svg path{
 
 .slider-container ul li section h3{
     display: flex;
-    flex-direction: column;
     text-align: center;
     margin: 5px 0 12px 0;
     font-size: 20px;
@@ -537,55 +536,7 @@ footer ul svg path{
     font-weight: 400;
 }
 
-.slider-card{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--nav-color);
-    border-radius: 1em;
-    height: 100%;
-}
-
-
-
-
-
-/*********************/
-/* Upcoming Events */
-/*********************/
-article h1{
-    margin: 100px 16px 32px 16px;
-}
-
-.event-card{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--nav-color);
-    border-radius: 1em;
-    height: 100%;
-    margin: 32px 16px;
-}
-
-.event-card img{
-    width: 100%; /*Anders loopt de afbeelding uit de container*/
-    border-radius: 1em 1em 0 0 ;
-}
-
-.event-card section{
-    background-color: var(--nav-color);
-    border-radius: 0 0 1em 1em;
-    margin: 24px;
-}
-
-.event-card section h3{
-    display: flex;
-    flex-direction: column;
-    margin: 5px 0 12px 0;
-    font-size: 20px;
-    letter-spacing: .08rem;
-    font-weight: 500;
-}
-
-.event-info{
+.slider-container ul li section div{
     display: flex;
     gap: 0.7em;
     font-weight: 300;
@@ -595,12 +546,12 @@ article h1{
     margin: 0;
 }
 
-.event-info svg{
+.slider-container ul li section div svg{
     width: 28px;
     height: 28px;
 }
 
-.event-info svg path{
+.slider-container ul li section div svg path{
     fill: var(--icon-color)
 }
 
@@ -619,7 +570,7 @@ article h1{
 /*********************/
 /* Highlights & News */
 /*********************/
-.news-card{
+.news-container a{
     display: flex;
     flex-direction: column;
     background-color: var(--nav-color);
@@ -628,24 +579,20 @@ article h1{
     margin: 32px 16px;
 }
 
-.news-card img{
-    width: 100%; /*Anders loopt de afbeelding uit de container*/
-    border-radius: 1em 1em 0 0 ;
-}
-
-.news-card img{
-    height: 25vh;
+.news-container a img{
+    height: 20vh;
     width: auto;
+    border-radius: 1em 1em 0 0 ;
     object-fit: cover;
 }
 
-.news-card section{
+.news-container a section{
     background-color: var(--nav-color);
     border-radius: 0 0 1em 1em;
     margin: 24px;
 }
 
-.news-card section h3{
+.news-container a section h3{
     display: flex;
     flex-direction: column;
     margin: 5px 0 12px 0;
@@ -654,18 +601,75 @@ article h1{
     font-weight: 500;
 }
 
-.news-card h4{
+.news-container a h4{
     margin: 5px 0 5px 0;
     font-weight: 500;
 }
 
-.news-card p{
+.news-container a p{
     font-weight: 50;
     font-size: 14px;
     line-height: 1.2;
 }
 
 
+
+
+
+/*********************/
+/* Upcoming Events */
+/*********************/
+article h1{
+    margin: 100px 16px 32px 16px;
+}
+
+.event-container a{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--nav-color);
+    border-radius: 1em;
+    height: 100%;
+    margin: 32px 16px;
+}
+
+.event-container a img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+    height: 200px;
+}
+
+.event-container a section{
+    margin: 24px;
+}
+
+.event-container a section h3{
+    display: flex;
+    text-align: center;
+    margin: 5px 0 12px 0;
+    font-size: 20px;
+    letter-spacing: .08rem;
+    font-weight: 400;
+}
+
+.event-container a section div{
+    display: flex;
+    gap: 0.7em;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-size: 14px;
+    align-items: center;
+    margin: 0;
+}
+
+.event-container a section div svg{
+    width: 28px;
+    height: 28px;
+}
+
+.event-container ul li section div svg path{
+    fill: var(--icon-color)
+}
 
 
 

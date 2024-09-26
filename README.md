@@ -309,6 +309,11 @@ To Do lijst voor week 4:
 
   Tijdens de les ben ik eerst begonnen met het toevoegen van alle links op m'n a tags. Deze links gaan naar pagina's van de echte website van Tomorrowland. In deze les wil ik m'n website zover mogelijk afmaken, zodat ik morgen de toegankelijkheidstest kan gaan doen. Zo kan ik ook nog eventuele verbeteringen doen. 
   
+  Op donderdag 26 september ben ik verder gegaan. Ik heb eerst m'n hele code nog eens kritisch bekeken. Ik heb toen meerdere overbodige classes eruitgehaald. Ik kwam echter in een soort dubio: ik had veel dezelfde stijling gebruikt maar meerdere malen opgeschreven. Dit kwam doordat ik m'n classes had verwijderd die ik hergebruikte voor meerdere elementen. Ik kon dit echter oplossen door selectoren te gebruiken. Hierdoor hield ik minder classes over, maar wel meer css. Deze css was over het algemeen ook vaak hetzelfde. Ik heb toen besloten om dit aan ChatGPT te vragen. 
+
+  ChatGPT gaf aan dat ik inderdaad veel dezelfde code gebruikte. Dit kon ik oplossen door een gezamelijk class aan te maken: container. In deze class kon ik de gemeenschappelijke stijling verwerken. Dit werkte voor mij echter niet. Toen ik dit wilde toevoegen, werkte veel containers niet zoals ik wil. Ik besloot daarom om dit voor nu even te laten liggen. Dit wilde ik morgen echter wel vragen tijdens het feedback gesprek.
+
+  Ik ben daarom verder gegaan met het doorlezen en analyseren van m'n code. Ook zet ik overal comments neer Dit was ik tijdens het schrijven vergeten. 
   
 
 
@@ -322,6 +327,9 @@ To Do lijst voor week 4:
   | ...            | ...                | ...          | ...              |
 
 
+  Vragen
+  - Ik heb veel dezelfde stijlen geselecteerd met slimme selectoren, maar hierdoor wel veel zelde css code. Is dit erg?
+  - Kan je me helpen met m'n hero?
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
