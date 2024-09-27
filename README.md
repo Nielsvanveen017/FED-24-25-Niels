@@ -343,7 +343,6 @@ To Do lijst voor week 4:
 
   Vragen
   - Ik heb veel dezelfde stijlen geselecteerd met slimme selectoren, maar hierdoor wel veel zelde css code. Is dit erg?
-  - Kan je me helpen met m'n hero?
   - Moet ik de code die ik met behulp van ChatGPT heb geschreven ook uit kunnen leggen? 
   - Heb ik op dit moment omvangrijkere formulieren met styling, de radio buttons
   - Telt het om een geluidje toe te voegen aan een knop, zodat je een surface-plane element erbij hebt?
@@ -353,10 +352,12 @@ To Do lijst voor week 4:
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De meest overzichtelijke code is het belangrijkste, als dit met classes is, dan is het niet erg
+  - Verborgen link toevoegen om naar main content te skippen
+  - Een geluidje toevoegen aan een knop is een onderdeel van de surface-plan
+  - De screenreader doe niks met Javascript
+  - Werk met flexibele units, zoals EM en REM
+
 
 </details>
 
