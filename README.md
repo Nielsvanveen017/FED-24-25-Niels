@@ -351,12 +351,12 @@ To Do lijst voor week 4:
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - De meest overzichtelijke code is het belangrijkste, als dit met classes is, dan is het niet erg
   - Verborgen link toevoegen om naar main content te skippen
   - Een geluidje toevoegen aan een knop is een onderdeel van de surface-plan
   - De screenreader doe niks met Javascript
   - Werk met flexibele units, zoals EM en REM
+  - EM is vaak ten opzichte van 16px
 
 
 </details>
