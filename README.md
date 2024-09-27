@@ -313,8 +313,22 @@ To Do lijst voor week 4:
 
   ChatGPT gaf aan dat ik inderdaad veel dezelfde code gebruikte. Dit kon ik oplossen door een gezamelijk class aan te maken: container. In deze class kon ik de gemeenschappelijke stijling verwerken. Dit werkte voor mij echter niet. Toen ik dit wilde toevoegen, werkte veel containers niet zoals ik wil. Ik besloot daarom om dit voor nu even te laten liggen. Dit wilde ik morgen echter wel vragen tijdens het feedback gesprek.
 
-  Ik ben daarom verder gegaan met het doorlezen en analyseren van m'n code. Ook zet ik overal comments neer Dit was ik tijdens het schrijven vergeten. 
+  Ik ben daarom verder gegaan met het doorlezen en analyseren van m'n code. Ook zet ik overal comments neer Dit was ik tijdens het schrijven vergeten. Daarna moest ik verder aan een ander vak. 
+
+  Ik heb het coderen op vrijdag 27 september weer opgepakt. Zo heb ik met behulp van ChatGPT en de slides uit de les een keyboard shortcut toegevoegd. Deze moet ik nog wel een keertje goed bekijken om hem te kunnen uitleggen. Ik heb hem echter wel als bron vermeld. Dit riep direct een vraag bij mij op: moet ik de code die ik met behulp van ChatGPT heb geschreven ook uit kunnen leggen? Deze vraag wil ik tijdens het feedbackgesprek gaan stellen. 
+
+  Nadat ik de keyboard shortcut heb toevoegd, ben ik gaan checken of ik voldoende surface-plane elementen heb toegevoegd. Op dit moment heb ik de volgende surface-plane elementen in m'n code:
+  - Keyboard shortcut
+  - Custom themes
+  - has() 
+  - Wat omvangrijkere formulieren met styling?
+  - Prefers-reduced-motion
   
+  Wat omvangrijke formulieren met styling weet ik op dit moment niet zeker. Dit ga ik nog vragen in de les. Mocht het zo zijn dat ik dat op dit moment nog niet heb, dan ga ik ook direct vragen of ik een geluidje mag toevoegen aan een knop. Als dit niet het geval is, dan moet ik nog een keer kritisch naar m'n website en de checklist van het surface plane kijken.
+
+  Ook moet ik nog een toegankelijkheid test uitvoeren. Deze wil ik eigenlijk pas uitvoeren wanneer ik m'n website zo goed als af heb. Deze ga ik daarom maandag 30 september uitvoeren. Ik heb dan op dinsdag 1 oktober nog de tijd om dingen aan te passen en misschien nog wat in de footer toevoegen. Zo weet ik zeker dat m'n website toegankelijk is. 
+  
+  Ik ben dus goed op weg om m'n website toegankelijk te maken. Ook heb ik al veel staan, vergeleken met andere mensen. Voor het feedback gesprek van vrijdag 27 september heb ik een aantal vragen opgesteld. Ik hoop in het feedbackgesprek antwoord op deze vragen te krijgen.
 
 
   ### Agenda voor meeting
@@ -330,6 +344,12 @@ To Do lijst voor week 4:
   Vragen
   - Ik heb veel dezelfde stijlen geselecteerd met slimme selectoren, maar hierdoor wel veel zelde css code. Is dit erg?
   - Kan je me helpen met m'n hero?
+  - Moet ik de code die ik met behulp van ChatGPT heb geschreven ook uit kunnen leggen? 
+  - Heb ik op dit moment omvangrijkere formulieren met styling, de radio buttons
+  - Telt het om een geluidje toe te voegen aan een knop, zodat je een surface-plane element erbij hebt?
+  - Wat is toegankelijkheid ++?
+
+
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
