@@ -358,7 +358,7 @@ To Do lijst voor week 4:
   - Werk met flexibele units, zoals EM en REM
   - EM is vaak ten opzichte van 16px
 
-
+Tijdens de meeting heeft David mij ook geholpen met de gradient in m'n header. Ik ga kijken of ik deze gradient nu ook op de andere images kan toevoegen. Ook had Ivo nog wat feedback op de keybord shortcut. Hij gaf aan dat het nieth handig is om de keybord shortcut op de tab toets te zetten in verband met de screenreader. 
 </details>
 
 

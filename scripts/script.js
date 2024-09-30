@@ -24,7 +24,7 @@ function selectNextRadio() {
 
 // Listen voor de Tab Key event
 document.addEventListener('keydown', function(event) {
-    if (event.key === 'Tab') {
+    if (event.key === 'n' || event.key === 'N') {
         event.preventDefault(); // Voorkom dat default tab gedrag in de browser is ingesteld
         selectNextRadio(); // Roep de functie aan
     }

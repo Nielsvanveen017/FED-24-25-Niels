@@ -81,24 +81,19 @@
 :root {
     --body-background: #372E1E;
     --text-color: #ffffff;
-    --hero-text-color: #ffffff;
     --icon-color: #ffffff;
     --nav-color: #000000;
     --card-background: #000000;
     --button-stroke-color: #ffffff;
     --button-fill-color: none;
-    --gradient-nav: brightness(60%) blur(16px);
     --font-primary: 'Europa', sans-serif;
     --logo-color: #ffffff;
-    --gradient-background: #000000;
-    --nav-background-color: rgba(0, 0, 0, 0.50);
   }
   
   /* Met has kan ik de value die gelijk aan iets staat uit de html selecteren */
   body:has(input[value="light"]:checked) {
     --body-background: #f5f5f5;
     --text-color: #000000;
-    --hero-text-color: #000000; /* Deze gaat goed wanneer er een gradient wordt toegepast */
     --icon-color: #000000;
     --nav-color: #ffffff;
     --card-background: #ffffff;
@@ -106,56 +101,21 @@
     --button-fill-color: none;
     --font-primary: 'Europa', sans-serif;
     --logo-color: #000000;
-    --gradient-background: #ffffff;
-    --nav-background-color: rgba(255, 255, 255, 0.50);
+    --hero-background: #ffffff;
   }
   
-  body:has(input[value="summer"]:checked) {
-    --body-background: #E1CA96;
-    --text-color: #E36414;
-    --hero-text-color: #31263e;
-    --icon-color: #E36414;
-    --nav-color: #ffffff;
-    --card-background: #ffffff;
-    --button-stroke-color: #E36414;
-    --button-fill-color: #E36414;
-    --button-text-color: #ffffff;
-    --font-primary: 'Professor Minty', sans-serif;
-    --logo-color: #E36414;
-    --gradient-background: #ffffff;
-    --nav-background-color: rgba(0, 0, 0, 0.50);
-  }
-  
-  body:has(input[value="blue"]:checked){
-    --body-background: #A9C6E8;
-    --text-color: #ffffff;
-    --hero-text-color: #0B2A4A;
-    --icon-color: #ffffff;
-    --nav-color: #0EA3FF;
-    --card-background: #ffffff;
-    --button-stroke-color: #ffffff;
-    --button-fill-color: #A9C6E8;
-    --button-text-color: #ffffff;
-    --font-primary: 'Europa', sans-serif;
-    --logo-color: #ffffff;
-    --gradient-background: linear-gradient(to right, #A9C6E8, #1F4E79);
-    --nav-background-color: rgba(255, 255, 255, 0.70);
-  }
 
   body:has(input[value="girl"]:checked){
     --body-background: #FCE4EC;
     --text-color: #880E4F;
-    --hero-text-color: #D5006D;
     --icon-color: #880E4F;
     --nav-color: #F48FB1; 
     --card-background: #ffffff;
     --button-stroke-color: #AD1457; 
     --button-fill-color: #F50057; 
-    --button-text-color: #ffffff; 
     --font-primary: "Professor Minty", sans-serif;
     --logo-color: #880E4F;
-    --gradient-background: linear-gradient(to right, #FCE4EC, #F48FB1);
-    --nav-background-color: rgba(255, 255, 255, 0.90);
+    --hero-background: linear-gradient(to right, #FCE4EC, #F48FB1);
   }
   
 /* Algemene stijl */
@@ -411,14 +371,6 @@ footer ul svg path{
 }
 
 .custom-radio:nth-child(3)::before {
-    background-color: orange; /* Oranje knop */
-}
-
-.custom-radio:nth-child(4)::before {
-    background-color: blue; /* blauwe knop */
-}
-
-.custom-radio:nth-child(5)::before {
     background-color: pink; /* roze knop */
 }
 
@@ -431,34 +383,38 @@ footer ul svg path{
 /* Hero section */
 /*********************/
 .hero-section{
-    height: 65vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    margin-bottom: 32px;
-    padding: 16px;
-    margin-top: 120px;
+    position: relative;
+    z-index: 1;
 }
 
+.hero-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--body-background) 100%);
+    z-index: 1;
+}
 
 .hero-section img{
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 80vh;
     width: 100%;
-    height: 80%;
-    object-fit: cover; /* Zorg ervoor dat de afbeelding goed past */
-    z-index: -1; /* Zet de afbeelding achter de tekst */
+    object-fit: cover;
+    z-index: 0; /* De afbeelding is onder de gradient */
 }
 
 .hero-section div{
+    position: absolute;
+    bottom: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 0 16px;
+    z-index: 3; /* Tekst moet boven de gradient en afbeelding komen */
 }
 
-.hero-section h1{
+.hero-section div h1{
     font-size: 34px;
     text-align: center;
     width: 100%;
@@ -467,7 +423,7 @@ footer ul svg path{
 }
 
 
-.hero-section p{
+.hero-section div p{
     font-weight: 200;
     color: var(--text-color);
     font-size: 16px;
@@ -476,13 +432,14 @@ footer ul svg path{
     line-height: 1.8rem 
 }
 
-.hero-section a{
+.hero-section div a{
     color: var(--text-color);
     padding: 6px 16px;
     border-radius: 100px;
     border: solid 1px;
     font-size: 14px;
     font-weight: 300;
+    width: fit-content;
 }
 
 
@@ -518,18 +475,18 @@ footer ul svg path{
     background-color: var(--card-background);
 }
 
-.slider-container ul li img {
+.event-card img {
     width: 100%;
     border-radius: 1em 1em 0 0;
     object-fit: cover;
     height: 200px;
 }
 
-.slider-container ul li section{
+.event-card section{
     margin: 24px;
 }
 
-.slider-container ul li section h3{
+.event-card section h3{
     display: flex;
     text-align: center;
     margin: 5px 0 12px 0;
@@ -538,7 +495,7 @@ footer ul svg path{
     font-weight: 400;
 }
 
-.slider-container ul li section div{
+.event-info{
     display: flex;
     gap: 0.7em;
     font-weight: 300;
@@ -548,12 +505,12 @@ footer ul svg path{
     margin: 0;
 }
 
-.slider-container ul li section div svg{
+.event-info svg{
     width: 28px;
     height: 28px;
 }
 
-.slider-container ul li section div svg path{
+.event-info svg path{
     fill: var(--icon-color)
 }
 
@@ -572,7 +529,7 @@ footer ul svg path{
 /*********************/
 /* Highlights & News */
 /*********************/
-.news-container a{
+.news-card{
     display: flex;
     flex-direction: column;
     background-color: var(--nav-color);
@@ -581,20 +538,20 @@ footer ul svg path{
     margin: 32px 16px;
 }
 
-.news-container a img{
+.news-card img{
     height: 20vh;
     width: auto;
     border-radius: 1em 1em 0 0 ;
     object-fit: cover;
 }
 
-.news-container a section{
+.news-card section{
     background-color: var(--nav-color);
     border-radius: 0 0 1em 1em;
     margin: 24px;
 }
 
-.news-container a section h3{
+.news-card section h3{
     display: flex;
     flex-direction: column;
     margin: 5px 0 12px 0;
@@ -603,12 +560,12 @@ footer ul svg path{
     font-weight: 500;
 }
 
-.news-container a h4{
+.news-card h4{
     margin: 5px 0 5px 0;
     font-weight: 500;
 }
 
-.news-container a p{
+.news-card p{
     font-weight: 50;
     font-size: 14px;
     line-height: 1.2;
@@ -634,44 +591,7 @@ article h1{
     margin: 32px 16px;
 }
 
-.event-container a img {
-    width: 100%;
-    border-radius: 1em 1em 0 0;
-    object-fit: cover;
-    height: 200px;
-}
 
-.event-container a section{
-    margin: 24px;
-}
-
-.event-container a section h3{
-    display: flex;
-    text-align: center;
-    margin: 5px 0 12px 0;
-    font-size: 20px;
-    letter-spacing: .08rem;
-    font-weight: 400;
-}
-
-.event-container a section div{
-    display: flex;
-    gap: 0.7em;
-    font-weight: 300;
-    margin-bottom: 6px;
-    font-size: 14px;
-    align-items: center;
-    margin: 0;
-}
-
-.event-container a section div svg{
-    width: 28px;
-    height: 28px;
-}
-
-.event-container ul li section div svg path{
-    fill: var(--icon-color)
-}
 
 
 
