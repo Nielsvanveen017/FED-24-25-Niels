@@ -29,3 +29,19 @@ document.addEventListener('keydown', function(event) {
         selectNextRadio(); // Roep de functie aan
     }
 });
+
+// Ophalen van de button 
+const formButton = document.getElementById("theme-form")
+
+// Functie maken voor het afspelen van het geluid --> vorig jaar gemaakt
+function playMusic(audioFilePath) {
+    const audio = new Audio(audioFilePath);
+    audio.play();
+}
+
+// Event toevoegen aan de knop (linken met html)
+formButton.addEventListener("click", function () {
+    playMusic("../sound-effects/sound-effect-button.mp3");
+})
+
+l
