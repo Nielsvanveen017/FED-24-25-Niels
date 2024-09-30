@@ -31,3 +31,10 @@ Promt: n m'n css gebruik ik vaak dezelfde stijlen. Zo heb ik een event-container
 
 Sound effect
 https://www.youtube.com/watch?v=h8y0JMVwdmM 
+
+Alt tekst voor SVG:
+https://toegankelijkonline.nl/artikelen/toegankelijke-afbeeldingen#:~:text=SVG%20afbeeldingen%20kunnen%20via%20het,een%20alt%20attribuut%20worden%20gekoppeld.
+ 
+
+Toegankelijkheid a 
+ChatGPT, prompt: Hoe laat je op een semantische manier weten waar een link heen gaat 

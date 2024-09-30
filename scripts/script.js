@@ -26,6 +26,7 @@ function selectNextRadio() {
 document.addEventListener('keydown', function(event) {
     if (event.key === 'n' || event.key === 'N') {
         event.preventDefault(); // Voorkom dat default tab gedrag in de browser is ingesteld
+        playMusic("../sound-effects/sound-effect-button.mp3");
         selectNextRadio(); // Roep de functie aan
     }
 });
@@ -44,4 +45,3 @@ formButton.addEventListener("click", function () {
     playMusic("../sound-effects/sound-effect-button.mp3");
 })
 
-l

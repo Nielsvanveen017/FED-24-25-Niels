@@ -359,6 +359,16 @@ To Do lijst voor week 4:
   - EM is vaak ten opzichte van 16px
 
 Tijdens de meeting heeft David mij ook geholpen met de gradient in m'n header. Ook had Ivo nog wat feedback op de keybord shortcut. Hij gaf aan dat het nieth handig is om de keybord shortcut op de tab toets te zetten in verband met de screenreader. 
+
+Op maandag 30 september heb ik m'n website getest met de screenreader. Hier ben ik best lang mee bezig geweest, omdat ik moeite had met het besturen van de screenreader. Ik kreeg het bijvoorbeeld niet voor elkaar om m'n website te selecteren in de inspector modus. Na een tijdje spelen en proberen is het me toch gelukt. Hierin kwamen bruikbare punten naar voren:
+- Het is niet mogelijk om een ander thema te selecteren, de screenreader gaat direct vanuit het logo door naar de links
+- De img in de footer heeft geen alt tekst, ook weet ik niet of dit wel een img moet zijn
+- De SVG's hebben geen alt tekst
+- De klikbare cards hebben geen omschrijving waar ze naar toe gaan, het is dus voor de bestuurder van de voice over niet duidelijk waar deze links naar toe gaan
+- De knop van het hamburger menu wordt niet voorgelezen
+- De kopjes zijn goed gestructureerd, waardoor het voor de bestuurder van de screen reader de website goed scanbaar/leesbaar is 
+
+
 </details>
 
 
