@@ -42,6 +42,6 @@ function playMusic(audioFilePath) {
 
 // Event toevoegen aan de knop (linken met html)
 formButton.addEventListener("click", function () {
-    playMusic("../sound-effects/sound-effect-button.mp3");
+    playMusic("sound-effects/sound-effect-button.mp3");
 })
 
