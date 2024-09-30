@@ -368,6 +368,7 @@ Op maandag 30 september heb ik m'n website getest met de screenreader. Hier ben 
 - De knop van het hamburger menu wordt niet voorgelezen
 - De kopjes zijn goed gestructureerd, waardoor het voor de bestuurder van de screen reader de website goed scanbaar/leesbaar is 
 
+Ik ben hierna op zoek gegaan naar een oplossing voor de alt tekst bij een svg. Deze bestaat namelijk niet. Ik kwam toen echter op deze website uit: https://toegankelijkonline.nl/artikelen/toegankelijke-afbeeldingen#:~:text=SVG%20afbeeldingen%20kunnen%20via%20het,een%20alt%20attribuut%20worden%20gekoppeld. Hierin wordt een voorbeeld voor een oplossing gegeven: een role- en alt-tekst attribuut toevoegen aan de svg. Dit heb ik gedaan. Hierna werd de svg goed voorgelezen door de screenreader. Ook heb ik nog een keer grondig naar het gebruik van m'n svg's gekeken. Zo heb ik de chevrons in de navigatie en footer verwijderd. Deze heb ik namelijk niet werkend gemaakt (zoals op de echte website). 
 
 </details>
 
